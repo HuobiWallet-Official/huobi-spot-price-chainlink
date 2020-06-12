@@ -1,0 +1,11 @@
+name: huobi-spot-price
+description: External adapter for Huobi spot price
+node_identifier: huobi-price
+platforms:
+  - Cloudflare Workers
+data_sources:
+  - name: huobi-price
+    url: https://oracle.huobiwallet.com/price
+parameters:
+  - base
+  - quote
